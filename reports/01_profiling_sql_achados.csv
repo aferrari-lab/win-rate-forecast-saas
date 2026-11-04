@@ -1,0 +1,38 @@
+tabela,coluna,problema,severidade,linhas_afetadas
+oportunidades,origem,grafias redundantes (13 -> 11 após normalizar),alta,12000
+clientes,segmento_crm,grafias redundantes (5 -> 4 após normalizar),alta,3825
+clientes,setor,grafias redundantes (36 -> 28 após normalizar),alta,3771
+oportunidades,id_cliente,oportunidade de cliente com CNPJ duplicado,alta,852
+clientes,cnpj,mesmo CNPJ em mais de um id_cliente,alta,518
+clientes,segmento_crm,segmento nulo,alta,185
+oportunidades,nome_oportunidade,oportunidade de teste (teste / não usar / demo interna),alta,123
+oportunidades,status x etapa_atual,status incoerente com a etapa atual,alta,86
+clientes,cnpj,CNPJ duplicado com segmento divergente entre cópias,alta,66
+oportunidades,motivo_perda,não perdida com motivo_perda,alta,51
+oportunidades,valor_mrr,"valor de preenchimento (MRR > R$ 100 mil: 999.999, 1,25 mi, 5 mi)",alta,43
+oportunidades,datas,não ganha com data_assinatura_contrato,alta,23
+oportunidades,valor_mrr,outlier de MRR dentro do próprio plano,media,603
+oportunidades,data_criacao,data fora do padrão ISO (99/99/9999) - recuperável,media,589
+oportunidades,valor_mrr,vírgula decimal (formato BR) - recuperável,media,373
+historico_etapas,data_entrada_etapa,histórico termina depois do fechamento,media,118
+oportunidades,datas,fechamento antes da criação,media,118
+oportunidades,datas,aberta com data_fechamento preenchida (data prevista?),media,57
+oportunidades,valor_mrr,valor zero,media,27
+oportunidades,valor_mrr,valor negativo,media,19
+clientes,cnpj,não tem 14 dígitos após normalizar,media,14
+oportunidades,datas,fechada (Ganha/Perdida) sem data_fechamento,media,2
+oportunidades,campo_custom_3,coluna 100% nula (candidata a descarte),baixa,12000
+oportunidades,utm_campaign,grafias redundantes (8 -> 6 após normalizar),baixa,9609
+clientes,cidade_uf,grafias redundantes (17 -> 15 após normalizar),baixa,4010
+clientes,cnpj,DV inválido na maioria: CNPJs fictícios/mascarados (usar só p/ dedup),baixa,3977
+clientes,campo_custom_17,coluna 92% nula (candidata a descarte),baixa,3693
+clientes,flag_migrado_v2,grafias redundantes (4 -> 3 após normalizar),baixa,3192
+oportunidades,datas,oportunidade criada antes do cadastro do cliente,baixa,3149
+clientes,cnpj,formato misto (com máscara . / -),baixa,2688
+oportunidades,motivo_perda,perdida sem motivo_perda,baixa,1109
+historico_etapas,etapa,mesma etapa registrada mais de uma vez,baixa,314
+historico_etapas,etapa,oportunidade voltou etapa no funil,baixa,284
+clientes,num_funcionarios,valor não numérico (n/d),baixa,266
+clientes,cnpj,espaços sobrando no início/fim,baixa,256
+clientes,setor,espaços sobrando no início/fim,baixa,240
+oportunidades,datas,ganha sem data_assinatura_contrato,baixa,29

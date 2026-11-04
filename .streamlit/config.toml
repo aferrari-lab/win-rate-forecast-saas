@@ -1,0 +1,22 @@
+# Tema visual do dashboard (azul-marinho e azuis claros)
+[theme]
+base = "light"
+primaryColor = "#1366c9"              # azul primário da marca (sliders, seleção, foco)
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f3f8fe"  # azul-claro de fundo da marca (barra lateral, inputs)
+textColor = "#29354d"                 # marinho da marca (cor do símbolo)
+linkColor = "#1366c9"
+borderColor = "#dde0e4"
+font = "Poppins:https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap, Arial, sans-serif"
+headingFontWeights = [700, 600, 600, 600, 500, 500]
+baseRadius = "medium"
+
+[theme.sidebar]
+backgroundColor = "#f3f8fe"
+secondaryBackgroundColor = "#ffffff"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false

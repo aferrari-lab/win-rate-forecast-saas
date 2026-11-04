@@ -1,0 +1,31 @@
+id_vendedor,nome_vendedor,time,data_admissao,data_desligamento,ativo,email_legado,cod_centro_custo,meta_mensal_2024
+V100,Ana Costa,ENT,2021-06-26,,S,ana.0@legado-crm.local,CC-4213,
+V101,Bruno Rocha,SMB Inbound,2024-09-02,,S,bruno.1@legado-crm.local,CC-7458,
+V102,Carla Alves,SMB Outbound,2023-10-07,2025-02-16,N,carla.2@legado-crm.local,CC-6021,
+V103,Diego Rocha,SMB Outbound,2022-04-21,,Sim,diego.3@legado-crm.local,CC-2903,
+V104,Eduarda Pereira,SMB Inbound,2023-10-24,,S,eduarda.4@legado-crm.local,CC-1444,
+V105,Felipe Pereira,ENT,2023-12-11,,S,felipe.5@legado-crm.local,CC-5257,33000
+V106,Gabriela Teixeira,SMB Outbound,2023-05-10,,Sim,gabriela.6@legado-crm.local,CC-9943,25000
+V107,Henrique Silva,SMB Inbound,2025-03-19,2025-12-22,N,henrique.7@legado-crm.local,CC-3532,33000
+V108,Isabela Silva,SMB Inbound,2023-07-15,2025-09-26,N,isabela.8@legado-crm.local,CC-2786,
+V109,João Alves,ENT,2024-05-09,,S,joão.9@legado-crm.local,CC-5598,
+V110,Karina Lima,SMB Outbound,2023-07-08,,Sim,karina.10@legado-crm.local,CC-4858,
+V111,Lucas Barros,SMB Outbound,2022-03-27,,1,lucas.11@legado-crm.local,CC-1068,
+V112,Mariana Costa,SMB Inbound,2022-09-02,,Sim,mariana.12@legado-crm.local,CC-4328,9000
+V113,Nicolas Silva,SMB Inbound,2023-12-23,,S,nicolas.13@legado-crm.local,CC-3110,
+V114,Olívia Costa,SMB Inbound,2024-04-06,,S,olívia.14@legado-crm.local,CC-2313,19000
+V115,Pedro Teixeira,SMB Inbound,2022-11-30,,Sim,pedro.15@legado-crm.local,CC-8592,
+V116,Queila Nunes,SMB Inbound,2024-08-03,2026-02-18,N,queila.16@legado-crm.local,CC-8354,19000
+V117,Rafael Rocha,SMB Inbound,2023-07-02,2026-03-01,N,rafael.17@legado-crm.local,CC-8761,
+V118,Sofia Rocha,ENT,2024-11-05,2025-06-17,N,sofia.18@legado-crm.local,CC-7403,
+V119,Thiago Nunes,SMB Outbound,2021-02-10,,S,thiago.19@legado-crm.local,CC-5456,
+V120,Ursula Pereira,ENT,2023-10-18,,S,ursula.20@legado-crm.local,CC-4120,
+V121,Vinícius Alves,SMB Inbound,2021-05-27,,Sim,vinícius.21@legado-crm.local,CC-2517,
+V122,Wesley Lima,SMB Outbound,2023-01-12,,S,wesley.22@legado-crm.local,CC-6340,
+V123,Yasmin Rocha,ENT,2025-02-21,,Sim,yasmin.23@legado-crm.local,CC-9917,25000
+V124,Zeca Barros,SMB Inbound,2024-02-04,,1,zeca.24@legado-crm.local,CC-3673,
+V125,Laura Rocha,SMB Outbound,2023-06-25,,Sim,laura.25@legado-crm.local,CC-6047,16000
+V126,Mateus Rocha,ENT,2024-01-02,2025-12-25,N,mateus.26@legado-crm.local,CC-5841,
+V127,Renata Lima,ENT,2024-04-14,,1,renata.27@legado-crm.local,CC-1253,
+V128,Caio Pereira,SMB Outbound,2024-11-08,2025-12-17,N,caio.28@legado-crm.local,CC-1002,27000
+V129,Beatriz Silva,SMB Outbound,2022-10-20,,1,beatriz.29@legado-crm.local,CC-7774,

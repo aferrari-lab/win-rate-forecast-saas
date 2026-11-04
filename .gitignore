@@ -1,0 +1,32 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Dados gerados pelo pipeline: não versionar (data/raw e data/ref são versionados)
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+
+# Saídas geradas
+reports/figures/*.png
+!reports/figures/.gitkeep
+
+# SO / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Banco DuckDB local (gerado pelo profiling_sql.py)
+*.duckdb
+*.duckdb.wal
+
+# Apresentação do case (contém o nome da empresa)
+*.pptx
+~$*

@@ -1,0 +1,9 @@
+chave,valor,unidade,descricao,fonte_sugerida
+gasto_vendas_marketing_12m,,R$,"Gasto total de Vendas + Marketing nos últimos 12 meses até a data de referência (salários, comissões, mídia, eventos, ferramentas)",Financeiro / DRE gerencial
+churn_logo_mensal_pct,,% ao mês,Clientes cancelados no mês / clientes ativos no início do mês (média dos últimos 12 meses),Billing / Customer Success
+churn_mrr_mensal_pct,,% ao mês,MRR perdido no mês (cancelamento + downgrade) / MRR do início do mês (média dos últimos 12 meses),Billing
+margem_bruta_pct,,%,Margem bruta da receita recorrente (receita - custo de servir) / receita,Financeiro / DRE
+usuarios_ativos,,nº,Usuários (licenças / agentes) ativos na data de referência - base do ARPU,Produto / Billing
+mrr_faturado_atual,,R$,MRR efetivamente faturado na data de referência (base real para ARR e ARPU),Billing
+receita_liquida_12m,,R$,Receita líquida dos últimos 12 meses,DRE
+ebitda_12m,,R$,EBITDA dos últimos 12 meses,DRE
