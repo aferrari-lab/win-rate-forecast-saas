@@ -28,6 +28,11 @@ def main() -> int:
     os.chdir(ROOT)  # os .sql usam caminhos relativos à raiz
     con = duckdb.connect(str(DB))
     try:
+        # Bancos antigos têm raw_* como VIEW; o 00_raw.sql agora cria TABLE, e o DuckDB
+        # não troca view por tabela com CREATE OR REPLACE. Remove as views antes.
+        for (nome,) in con.sql("SELECT view_name FROM duckdb_views() "
+                               "WHERE NOT internal AND view_name LIKE 'raw\\_%' ESCAPE '\\'").fetchall():
+            con.sql(f'DROP VIEW "{nome}"')
         for etapa, arquivos in ETAPAS.items():
             for arq in arquivos:
                 print(f"> {arq.relative_to(ROOT).as_posix()}")
